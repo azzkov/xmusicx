@@ -1,0 +1,23 @@
+.carousel-item {
+    position: relative; /* Permite posicionar o texto sobre a imagem */
+}
+
+.image-container {
+    position: relative; /* Para permitir que o texto seja posicionado sobre a imagem */
+}
+
+.carousel-image {
+    width: 100%; /* Faz com que a imagem ocupe toda a largura do contêiner */
+    height: 800px; /* Mantém a proporção da imagem */
+    max-height: 400px; /* Define uma altura máxima para as imagens */
+    border-radius: 8px; /* Arredonda os cantos da imagem */
+}
+
+.carousel-text {
+    position: absolute; /* Permite que o texto fique sobre a imagem */
+    bottom: 20px; /* Distância do fundo da imagem */
+    left: 20px; /* Distância da esquerda da imagem */
+    color: white; /* Cor do texto */
+    font-size: 24px; /* Tamanho da fonte */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para melhorar a legibilidade */
+}
